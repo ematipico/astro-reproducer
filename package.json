@@ -1,17 +1,17 @@
 {
-  "name": "astro-reproducer",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/netlify": "^5.5.4",
-    "astro": "^5.0.0-beta.5",
-    "typescript": "^5.6.3"
-  }
+	"name": "astro-reproducer",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.4",
+		"@astrojs/netlify": "^6.1.0",
+		"astro": "^5.2.6",
+		"typescript": "^5.6.3"
+	}
 }
